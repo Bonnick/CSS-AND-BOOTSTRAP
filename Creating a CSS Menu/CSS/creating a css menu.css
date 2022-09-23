@@ -15,7 +15,7 @@ body {
     /* To the top edge of the screen */
     position: absolute;
     width: 100%;
-    background-color: 164552;
+    background-color: #f1e209;
 }
 
 .menu {
@@ -28,7 +28,7 @@ body {
 }
 
 .menu li {
-    color: #e9850c
+    color: #e9850c;
     display: inline-block;
     margin-right: -2px;
     position: relative;
@@ -40,15 +40,25 @@ body {
 
 .menu li:hover {
     background-color: #0aeb67;
-    color: #e9850c
+    color: #e9850c;
 }
 
 .menu li:hover ul {
     display:block;
-    apacity: 1;
+    opacity: 1;
     /* while hovered, drop down-menu appears
     This also avoids ablock-level bug*/
-    visibility:visible
+    visibility:visible;
+}
+.submenu {
+    padding: 0;
+    left: 0;
+    position: absolute;
+    top: 43.5px;
+    width: 125.5px;
+    opacity:0;
+    visibility: hidden;
+
 }
 .submenu li {
     background-color: #fa0404;
