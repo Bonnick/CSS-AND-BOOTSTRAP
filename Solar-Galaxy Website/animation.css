@@ -15,14 +15,13 @@ MENU SECTION ANIMATION
 .menu li {
     color: #000;
     background-color: rgba(255, 255, 255, 1);
-    display: incline-block;
+    display:inline-block;
     margin: 0% auto;
     position: relative;
     padding: 15px 4%;
     border: 1px, solid #9d9fa2;
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
     border-radius: 6px;
-    background color: #052136;
     cursor: pointer;
     transition-property:background;
     transition-delay: .4s;
